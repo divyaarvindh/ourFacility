@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-wrap: pretty;
+    /* border: 1px solid rgb(255, 0, 0); */
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    /* background-color: #eff2f7; */
+    /* font-family: "Merienda", serif; */
+    font-family: "Nunito Sans", serif;
+    color: #666666;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 0.1rem;
+    /* -webkit-font-smoothing: antialiased; */
+    /* font-optical-sizing: auto; */
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* column-gap: 1rem; */
+    /* row-gap: 1rem; */
+    gap: 1rem;
+    /* padding: 0rem 2rem; */
+}
+
+.componentSpacing {
+    padding: 2rem 0rem;
+    /* Breathing Space Between Components */
+}
+
+.dflex-col {
+    display: flex;
+    flex-direction: column;
+    /* makes top to bottom align */
+    align-items: center;
+    /* Behaves like a justify-content */
+    justify-content: center;
+    /* Behaves like a align-items */
+    text-align: center;
+}
+
+h2 {
+    font-family: "Merienda", serif;
+    color: #333333;
+    font-size: 4.5rem;
+    font-weight: 800;
+    line-height: 1;
+    padding-bottom: 2.5rem;
+}
+
+.headingImage img {
+    width: auto;
+    height: 40px;
+
+}
+
+.screenSize {
+    max-width: 1200px;
+    /* Device Screen Size */
+    margin: auto;
+    /* Left and right Center */
+}
+
+.coffeeCardMain p {
+    /* display: flex; */
+    text-align: start;
+    font-weight: 400;
+    word-spacing: 1.5rem;
+    text-transform: capitalize;
+    
+}
+
+h3 {
+    font-family: "Nunito",sans-serif;
+    font-size: 20px;
+    color: #212529;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 10px 0px; 
+}
