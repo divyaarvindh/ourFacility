@@ -83,7 +83,7 @@ h2 {
 
 .coffeeCardMain p {
     /* display: flex; */
-    text-align: start;
+    /* text-align: start; */
     font-weight: 400;
     word-spacing: 1.5rem;
     text-transform: capitalize;
@@ -112,9 +112,6 @@ h3 {
   .grid-4 {
     grid-template-columns: 1fr;
     padding: 0rem 1rem;
-  }
-  p{
-    text-align: center;
   }
 }
 
