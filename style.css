@@ -113,6 +113,9 @@ h3 {
     grid-template-columns: 1fr;
     padding: 0rem 1rem;
   }
+  p{
+    text-align: center;
+  }
 }
 
 /* Medium devices (tablets, upto 768px and above) */
